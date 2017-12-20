@@ -2,15 +2,21 @@
   "name": "babeplatform",
   "version": "1.0.0",
   "description": "Platform for social music sharing",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "moment": "^2.20.1",
+    "mongoose": "^4.13.7",
     "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
