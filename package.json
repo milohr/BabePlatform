@@ -1,7 +1,7 @@
 {
-  "name": "babeplatform",
+  "name": "babeit",
   "version": "1.0.0",
-  "description": "Platform for social music sharing",
+  "description": "Platform for music sharing",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
@@ -15,6 +15,7 @@
     "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
+    "jwt-simple": "^0.5.1",
     "moment": "^2.20.1",
     "mongoose": "^4.13.7",
     "pug": "^2.0.0-rc.4"

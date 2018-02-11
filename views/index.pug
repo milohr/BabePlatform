@@ -1,0 +1,47 @@
+doctype html
+html(lang="es")
+    head
+        title= title? title : name
+        meta(name="X-UA-Compatible" content="IE=edge")
+        link(href="/css/bootstrap.min.css" rel="stylesheet")       
+        link(href="/css/style.css" rel="stylesheet")       
+    
+    if(color) 
+        - var col = color
+    else
+        - var col = "#333"
+    
+    body(style="background-color:"+col+";")
+     
+        div.menu
+            div.item
+                a.menuItem(heref="#")= "BabeIt"
+            div.item
+                a.menuItem(heref="#")= "Wiki"
+            div.item
+                a.menuItem(heref="#")= "Singup"
+        
+        
+        div.grid        
+            div#AA
+                div.cc
+                    block contentAA
+            div#AB
+                div.cc
+                    block contentAB
+            
+            div#BA
+                div.cc
+                    block contentBA
+            div#BB
+                div.cc
+                    block contentBB
+            
+            div#CA
+                div.cc
+                    block contentCA
+            div#CB
+                div.cc
+                    block contentCB
+            
+            

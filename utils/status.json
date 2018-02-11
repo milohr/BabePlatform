@@ -1,0 +1,20 @@
+{
+    "ok" : 
+    {
+        "code" : 200,
+        "msg" : "Sucessfull"
+    },
+    
+    "error" : 500,
+    
+    "bad" :
+    {
+        "code" : 400,
+        "msg" : "Formating error or incomplete request"
+    },
+    
+    "unauthorized" : 401,
+    "not_found" : 404,
+    "forbidden" : 403,
+    "missing" : 418
+}

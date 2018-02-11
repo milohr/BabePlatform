@@ -2,6 +2,6 @@
 	"mongo" :
 	{
 		"host" : "localhost",
-		"db" : "Grinsoft"
+		"db" : "BabeIt"
 	}
 }
